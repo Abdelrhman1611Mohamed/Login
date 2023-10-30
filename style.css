@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+body{
+    background-color: #2f033e;
+    background: linear-gradient(to right, #27022e, #4c0359);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    width: 500px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid #9d22b3;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    top: 70px;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-size: 25px;
+    color: beige;
+}
+
+input{
+    display: block;
+    width: 70%;
+    position: relative;
+    top: 120px;
+    left: 70px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: solid 1px;
+    color: #fff;
+    transition: 1s;
+}
+input:focus{
+    outline: none;
+    background-color: #ffffff8f;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: bolder;
+    padding: 5px;
+}
+.boutn a{
+ font-size: 14px;
+ text-decoration: none;
+ color: #fff;
+ position: relative;
+ top: 160px;
+ left: 70px;
+}
+.boutn a:hover{
+    color: #4d39d2;
+}
+button{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 250px;
+    left: 10px;
+    background: none;
+    border: none;
+    border: solid 1px #b676c1;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color: #421538;
+    letter-spacing: 5px;
+}
+.btn2{
+    position: relative;
+    top: 140px;
+}
+/*
+max-width:450px;
+
+*/
+#icon1{
+    position: relative;
+    top: 156px;
+    left: 40px;
+}
+#icon2{
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+#icon3{
+    position: relative;
+    top: 210px;
+    right: 120px;
+    cursor: pointer;
+}
+#icon4{
+    position: relative;
+    top: 210px;
+    right: 100px;
+    cursor: pointer;
+}
+@media(max-width:450px){
+    form{
+        width: 350px;
+        height: 400px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 700;
+        top: 50px;
+    }
+    h1{
+        top: 40px;
+    }
+    button{
+        left: -70px;
+        top: 170px;
+    }
+    .boutn a{
+        top: 90px;
+        left: 60px;
+    }
+    input{
+        left: 60px;
+        top: 60px;
+    }
+    .btn2{
+        top:70px ;
+    }
+    #icon1{
+        top: 100px;
+        left: 30px;
+    }
+    #icon2{
+        top: 100px;
+        left: 30px;
+    }
+    #icon3{
+        position: relative;
+        top: 100px;
+        left: 200px;
+    }
+    #icon4{
+        position: relative;
+        top: 100px;
+        left: 80px;
+    }
+}
